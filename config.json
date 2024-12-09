@@ -71,6 +71,24 @@
           }
         }
       }
+    },
+    {
+      "name": "B14R",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "B14R-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "B14R_gene.fna",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "B14R_gene.fna.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
     }
   ],
   "configuration": {},
@@ -224,6 +242,86 @@
       },
       "assemblyNames": [
         "variola",
+        "cowpox"
+      ]
+    },
+    {
+      "type": "SyntenyTrack",
+      "trackId": "B14R_vs_variola",
+      "name": "B14R_vs_variola",
+      "adapter": {
+        "type": "PAFAdapter",
+        "pafLocation": {
+          "uri": "B14R_vs_variola.paf",
+          "locationType": "UriLocation"
+        },
+        "assemblyNames": [
+          "B14R",
+          "variola"
+        ]
+      },
+      "assemblyNames": [
+        "B14R",
+        "variola"
+      ]
+    },
+    {
+      "type": "SyntenyTrack",
+      "trackId": "B14R_vs_monkeypox",
+      "name": "B14R_vs_monkeypox",
+      "adapter": {
+        "type": "PAFAdapter",
+        "pafLocation": {
+          "uri": "B14R_vs_monkeypox.paf",
+          "locationType": "UriLocation"
+        },
+        "assemblyNames": [
+          "B14R",
+          "monkeypox"
+        ]
+      },
+      "assemblyNames": [
+        "B14R",
+        "monkeypox"
+      ]
+    },
+    {
+      "type": "SyntenyTrack",
+      "trackId": "B14R_vs_vaccinia",
+      "name": "B14R_vs_vaccinia",
+      "adapter": {
+        "type": "PAFAdapter",
+        "pafLocation": {
+          "uri": "B14R_vs_vaccinia.paf",
+          "locationType": "UriLocation"
+        },
+        "assemblyNames": [
+          "B14R",
+          "vaccinia"
+        ]
+      },
+      "assemblyNames": [
+        "B14R",
+        "vaccinia"
+      ]
+    },
+    {
+      "type": "SyntenyTrack",
+      "trackId": "B14R_vs_cowpox",
+      "name": "B14R_vs_cowpox",
+      "adapter": {
+        "type": "PAFAdapter",
+        "pafLocation": {
+          "uri": "B14R_vs_cowpox.paf",
+          "locationType": "UriLocation"
+        },
+        "assemblyNames": [
+          "B14R",
+          "cowpox"
+        ]
+      },
+      "assemblyNames": [
+        "B14R",
         "cowpox"
       ]
     }
