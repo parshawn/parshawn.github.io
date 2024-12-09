@@ -186,6 +186,46 @@
       "assemblyNames": [
         "vaccinia"
       ]
+    },
+    {
+      "type": "SyntenyTrack",
+      "trackId": "variola_vs_vaccinia",
+      "name": "variola_vs_vaccinia",
+      "adapter": {
+        "type": "PAFAdapter",
+        "pafLocation": {
+          "uri": "variola_vs_vaccinia.paf",
+          "locationType": "UriLocation"
+        },
+        "assemblyNames": [
+          "variola",
+          "vaccinia"
+        ]
+      },
+      "assemblyNames": [
+        "variola",
+        "vaccinia"
+      ]
+    },
+    {
+      "type": "SyntenyTrack",
+      "trackId": "variola_vs_cowpox",
+      "name": "variola_vs_cowpox",
+      "adapter": {
+        "type": "PAFAdapter",
+        "pafLocation": {
+          "uri": "variola_vs_cowpox.paf",
+          "locationType": "UriLocation"
+        },
+        "assemblyNames": [
+          "variola",
+          "cowpox"
+        ]
+      },
+      "assemblyNames": [
+        "variola",
+        "cowpox"
+      ]
     }
   ],
   "aggregateTextSearchAdapters": [
