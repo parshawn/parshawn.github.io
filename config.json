@@ -1,0 +1,269 @@
+{
+  "assemblies": [
+    {
+      "name": "monkeypox",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "monkeypox-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "monkeypox.fna",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "monkeypox.fna.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    },
+    {
+      "name": "variola",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "variola-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "variola.fna",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "variola.fna.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    },
+    {
+      "name": "vaccinia",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "vaccinia-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "vaccinia_genome_ncbi.fa",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "vaccinia_genome_ncbi.fa.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    },
+    {
+      "name": "cowpox",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "cowpox-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "cowpox_genome_ncbi.fa",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "cowpox_genome_ncbi.fa.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    }
+  ],
+  "configuration": {},
+  "connections": [],
+  "defaultSession": {
+    "name": "New Session"
+  },
+  "tracks": [
+    {
+      "type": "SyntenyTrack",
+      "trackId": "variola_vs_monkeypox",
+      "name": "variola_vs_monkeypox",
+      "adapter": {
+        "type": "PAFAdapter",
+        "pafLocation": {
+          "uri": "variola_vs_monkeypox.paf",
+          "locationType": "UriLocation"
+        },
+        "assemblyNames": [
+          "variola",
+          "monkeypox"
+        ]
+      },
+      "assemblyNames": [
+        "variola",
+        "monkeypox"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "variola.gff",
+      "name": "variola.gff",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "variola.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "variola.gff.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "variola"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "monkeypox.gff",
+      "name": "monkeypox.gff",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "monkeypox.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "monkeypox.gff.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "monkeypox"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "cowpox_genome_sorted.gff",
+      "name": "cowpox_genome_sorted.gff",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "cowpox_genome_sorted.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "cowpox_genome_sorted.gff.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "cowpox"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "vaccinia_genome_sorted.gff",
+      "name": "vaccinia_genome_sorted.gff",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "vaccinia_genome_sorted.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "vaccinia_genome_sorted.gff.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "vaccinia"
+      ]
+    }
+  ],
+  "aggregateTextSearchAdapters": [
+    {
+      "type": "TrixTextSearchAdapter",
+      "textSearchAdapterId": "monkeypox-index",
+      "ixFilePath": {
+        "uri": "trix/monkeypox.ix",
+        "locationType": "UriLocation"
+      },
+      "ixxFilePath": {
+        "uri": "trix/monkeypox.ixx",
+        "locationType": "UriLocation"
+      },
+      "metaFilePath": {
+        "uri": "trix/monkeypox_meta.json",
+        "locationType": "UriLocation"
+      },
+      "assemblyNames": [
+        "monkeypox"
+      ]
+    },
+    {
+      "type": "TrixTextSearchAdapter",
+      "textSearchAdapterId": "variola-index",
+      "ixFilePath": {
+        "uri": "trix/variola.ix",
+        "locationType": "UriLocation"
+      },
+      "ixxFilePath": {
+        "uri": "trix/variola.ixx",
+        "locationType": "UriLocation"
+      },
+      "metaFilePath": {
+        "uri": "trix/variola_meta.json",
+        "locationType": "UriLocation"
+      },
+      "assemblyNames": [
+        "variola"
+      ]
+    },
+    {
+      "type": "TrixTextSearchAdapter",
+      "textSearchAdapterId": "vaccinia-index",
+      "ixFilePath": {
+        "uri": "trix/vaccinia.ix",
+        "locationType": "UriLocation"
+      },
+      "ixxFilePath": {
+        "uri": "trix/vaccinia.ixx",
+        "locationType": "UriLocation"
+      },
+      "metaFilePath": {
+        "uri": "trix/vaccinia_meta.json",
+        "locationType": "UriLocation"
+      },
+      "assemblyNames": [
+        "vaccinia"
+      ]
+    },
+    {
+      "type": "TrixTextSearchAdapter",
+      "textSearchAdapterId": "cowpox-index",
+      "ixFilePath": {
+        "uri": "trix/cowpox.ix",
+        "locationType": "UriLocation"
+      },
+      "ixxFilePath": {
+        "uri": "trix/cowpox.ixx",
+        "locationType": "UriLocation"
+      },
+      "metaFilePath": {
+        "uri": "trix/cowpox_meta.json",
+        "locationType": "UriLocation"
+      },
+      "assemblyNames": [
+        "cowpox"
+      ]
+    }
+  ]
+}
