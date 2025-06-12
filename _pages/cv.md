@@ -11,26 +11,23 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* B.S. in Bioengineering and Computer Science, UC Berkeley, 2026 (Expected)
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Summer 2025: Research Intern at Chan Zuckerberg Biohub
+  * Stanford University
+  * Supervisor: Dr. Stephen Quake
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Fall 2024 - Spring 2025: Honors Undergraduate Research Assistant
+  * UC Berkeley
+  * Building a language model of DNA transposons, including Tc1/Mariner. 
+  * Supervisor: Professor Ian Holmes
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Summer 2024: Research Assistant
+  * MD Anderson Cancer Center
+  * Deep Learning in Medical Imaging and Patient Reported Outcomes
+  * Supervisor: Dr. Clifton Dave Fuller
   
 Skills
 ======
