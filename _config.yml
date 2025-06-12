@@ -222,10 +222,10 @@ collections:
     output: true
     permalink: /:collection/:path/
   portfolio:
-    output: true
+    output: false
     permalink: /:collection/:path/
   talks:
-    output: true
+    output: false
     permalink: /:collection/:path/
 
 
@@ -268,22 +268,22 @@ defaults:
       share: true
       comments: true
   # _portfolio
- # - scope:
-  #    path: ""
-   #   type: portfolio
-    #values:
-     # layout: single
-      #author_profile: true
-      #share: true
-      #comment: true
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
   # _talks
-  #- scope:
-   #   path: ""
-   #   type: talks
-   # values:
-    #  layout: talk
-     # author_profile: true
-     # share: false
+  - scope:
+      path: ""
+      type: talks
+    values:
+      layout: talk
+      author_profile: true
+      share: false
 
 
 # Sass/SCSS
