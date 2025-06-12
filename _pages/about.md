@@ -1,15 +1,13 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Hello Friends!"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-# Hello Friends! 
-
-My name is Parshawn Gerafian and I'm a Bioengineering and Computer Science student at UC Berkeley. I am highly interested in solving biological and life sciences problems by using and creating new tools including Artificial Intelligence. 
+My name is Parshawn Gerafian and I'm a Bioengineering and Computer Science student at UC Berkeley. I am highly interested in solving biological and life sciences problems by using and creating new tools including Artificial Intelligence. When I was spending some time reading deeper biological textbooks in high school, I have always known there many **hidden** patterns in biology that needs to be uncovered. However, after moving to San Francisco, I realized numbers can be a revulotionary factor in revealing those patterns. Now that we have done an amazing progress in the digital world, It is time to acceleratle the ***applicable*** scientific ***achievements*** in our physical world using AI. Let's try our very best to cure all disease by the end of 2040 for those who are interested in this problem. 
 
 Experiences 
 ======
