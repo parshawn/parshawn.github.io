@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Parshawn"
+title                    : "Main"
 title_separator          : "-"
 name                     : &name "Parshawn Gerafian"
 description              : &description "BioE and CS student @ UC Berkeley"
@@ -261,29 +261,29 @@ defaults:
   # _publications
   - scope:
       path: ""
-      type: publications
+      type: publications and presentations
     values:
       layout: single
       author_profile: true
       share: true
       comments: true
   # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
+ # - scope:
+  #    path: ""
+   #   type: portfolio
+    #values:
+     # layout: single
+      #author_profile: true
+      #share: true
+      #comment: true
   # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: false
+  #- scope:
+   #   path: ""
+   #   type: talks
+   # values:
+    #  layout: talk
+     # author_profile: true
+     # share: false
 
 
 # Sass/SCSS
