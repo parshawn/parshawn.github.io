@@ -26,7 +26,7 @@ Work experience
 
 * Summer 2024: Research Assistant
   * MD Anderson Cancer Center
-  * Deep Learning in Medical Imaging and Patient Reported Outcomes
+  * Deep Learning in Head and Neck Medical Imaging and Patient Reported Outcomes
   * Supervisor: Dr. Clifton Dave Fuller
   
 Skills
